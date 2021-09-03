@@ -514,7 +514,7 @@ class Stocker():
         test['in_range'] = False
 
         for i in test.index:
-            if (test.ix[i, 'y'] < test.ix[i, 'yhat_upper']) & (test.ix[i, 'y'] > test.iloc[i, 'yhat_lower']):
+            if (test.iloc[i, 'y'] < test.iloc[i, 'yhat_upper']) & (test.iloc[i, 'y'] > test.iloc[i, 'yhat_lower']):
                 test.iloc[i, 'in_range'] = True
 
         in_range_accuracy = 100 * np.mean(test['in_range'])
