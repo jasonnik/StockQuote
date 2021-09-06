@@ -1,25 +1,3 @@
-stocker.py
-擁有存取權的人
-未共用
-系統屬性
-類型
-Text
-大小
-40 KB
-已使用的儲存空間
-40 KB
-位置
-Stocker_master
-擁有者
-我
-上次修改時間
-我曾於2020年3月2日修改
-上次開啟時間
-我曾於下午5:38開啟
-建立日期
-下午5:16 (使用「Google Drive Web」建立)
-新增說明
-檢視者可以下載
 # Quandl for financial analysis, pandas and numpy for data manipulation
 # fbprophet for additive models, #pytrends for Google trend data
 import quandl
